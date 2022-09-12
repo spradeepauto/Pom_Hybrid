@@ -18,7 +18,7 @@ class Test_Login_TC_001:
         self.driver.maximize_window()
         self.driver.implicitly_wait(30)
         actual_title = self.driver.title
-        if actual_title == "OrangeHR":
+        if actual_title == "OrangeHRM":
             assert True
             print("Test pass")
             self.driver.close()
